@@ -2,8 +2,11 @@
 synth:
   id: '339137'
   itemType: synth
-  updatedAt: '2018-07-14T12:56:43.274Z'
-  createdAt: '2018-07-14T12:56:43.270Z'
+  updatedAt: '2018-07-14T17:55:20.344Z'
+  createdAt: '2018-07-14T17:55:20.341Z'
+  manuals: |-
+    <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_eng03_W.pdf">Owner's manual</a></p>
+    <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_MIDI_Imple_Chart_eng01_W.pdf">MIDI implementation chart v1.00</a></p>
   win10:
     id: '339144'
     itemType: download_item
@@ -12,8 +15,11 @@ synth:
     synth:
       id: '339137'
       itemType: synth
-      updatedAt: '2018-07-14T12:56:43.274Z'
-      createdAt: '2018-07-14T12:56:43.270Z'
+      updatedAt: '2018-07-14T17:55:20.344Z'
+      createdAt: '2018-07-14T17:55:20.341Z'
+      manuals: |-
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_eng03_W.pdf">Owner's manual</a></p>
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_MIDI_Imple_Chart_eng01_W.pdf">MIDI implementation chart v1.00</a></p>
       win10: '339144'
       win78: '339143'
       macos1013: '339142'
@@ -21,9 +27,6 @@ synth:
       macos1010: '339140'
       macos109: null
       firmware: null
-      manuals:
-        - '339138'
-        - '339139'
       image: null
       description: null
       name: SH-01A
@@ -37,8 +40,11 @@ synth:
     synth:
       id: '339137'
       itemType: synth
-      updatedAt: '2018-07-14T12:56:43.274Z'
-      createdAt: '2018-07-14T12:56:43.270Z'
+      updatedAt: '2018-07-14T17:55:20.344Z'
+      createdAt: '2018-07-14T17:55:20.341Z'
+      manuals: |-
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_eng03_W.pdf">Owner's manual</a></p>
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_MIDI_Imple_Chart_eng01_W.pdf">MIDI implementation chart v1.00</a></p>
       win10: '339144'
       win78: '339143'
       macos1013: '339142'
@@ -46,9 +52,6 @@ synth:
       macos1010: '339140'
       macos109: null
       firmware: null
-      manuals:
-        - '339138'
-        - '339139'
       image: null
       description: null
       name: SH-01A
@@ -62,8 +65,11 @@ synth:
     synth:
       id: '339137'
       itemType: synth
-      updatedAt: '2018-07-14T12:56:43.274Z'
-      createdAt: '2018-07-14T12:56:43.270Z'
+      updatedAt: '2018-07-14T17:55:20.344Z'
+      createdAt: '2018-07-14T17:55:20.341Z'
+      manuals: |-
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_eng03_W.pdf">Owner's manual</a></p>
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_MIDI_Imple_Chart_eng01_W.pdf">MIDI implementation chart v1.00</a></p>
       win10: '339144'
       win78: '339143'
       macos1013: '339142'
@@ -71,9 +77,6 @@ synth:
       macos1010: '339140'
       macos109: null
       firmware: null
-      manuals:
-        - '339138'
-        - '339139'
       image: null
       description: null
       name: SH-01A
@@ -87,8 +90,11 @@ synth:
     synth:
       id: '339137'
       itemType: synth
-      updatedAt: '2018-07-14T12:56:43.274Z'
-      createdAt: '2018-07-14T12:56:43.270Z'
+      updatedAt: '2018-07-14T17:55:20.344Z'
+      createdAt: '2018-07-14T17:55:20.341Z'
+      manuals: |-
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_eng03_W.pdf">Owner's manual</a></p>
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_MIDI_Imple_Chart_eng01_W.pdf">MIDI implementation chart v1.00</a></p>
       win10: '339144'
       win78: '339143'
       macos1013: '339142'
@@ -96,9 +102,6 @@ synth:
       macos1010: '339140'
       macos109: null
       firmware: null
-      manuals:
-        - '339138'
-        - '339139'
       image: null
       description: null
       name: SH-01A
@@ -112,8 +115,11 @@ synth:
     synth:
       id: '339137'
       itemType: synth
-      updatedAt: '2018-07-14T12:56:43.274Z'
-      createdAt: '2018-07-14T12:56:43.270Z'
+      updatedAt: '2018-07-14T17:55:20.344Z'
+      createdAt: '2018-07-14T17:55:20.341Z'
+      manuals: |-
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_eng03_W.pdf">Owner's manual</a></p>
+        <p><a href="https://static.roland.com/assets/media/pdf/SH-01A_MIDI_Imple_Chart_eng01_W.pdf">MIDI implementation chart v1.00</a></p>
       win10: '339144'
       win78: '339143'
       macos1013: '339142'
@@ -121,9 +127,6 @@ synth:
       macos1010: '339140'
       macos109: null
       firmware: null
-      manuals:
-        - '339138'
-        - '339139'
       image: null
       description: null
       name: SH-01A
@@ -131,55 +134,6 @@ synth:
     name: v1.0.1
   macos109: null
   firmware: null
-  manuals:
-    - id: '339138'
-      itemType: download_item
-      updatedAt: '2018-07-14T12:54:54.663Z'
-      createdAt: '2018-07-14T12:54:54.663Z'
-      synth:
-        id: '339137'
-        itemType: synth
-        updatedAt: '2018-07-14T12:56:43.274Z'
-        createdAt: '2018-07-14T12:56:43.270Z'
-        win10: '339144'
-        win78: '339143'
-        macos1013: '339142'
-        macos101112: '339141'
-        macos1010: '339140'
-        macos109: null
-        firmware: null
-        manuals:
-          - '339138'
-          - '339139'
-        image: null
-        description: null
-        name: SH-01A
-      url: 'https://static.roland.com/assets/media/pdf/SH-01A_eng03_W.pdf'
-      name: Owner's manual
-    - id: '339139'
-      itemType: download_item
-      updatedAt: '2018-07-14T12:55:14.701Z'
-      createdAt: '2018-07-14T12:55:14.701Z'
-      synth:
-        id: '339137'
-        itemType: synth
-        updatedAt: '2018-07-14T12:56:43.274Z'
-        createdAt: '2018-07-14T12:56:43.270Z'
-        win10: '339144'
-        win78: '339143'
-        macos1013: '339142'
-        macos101112: '339141'
-        macos1010: '339140'
-        macos109: null
-        firmware: null
-        manuals:
-          - '339138'
-          - '339139'
-        image: null
-        description: null
-        name: SH-01A
-      url: 'https://static.roland.com/assets/media/pdf/SH-01A_MIDI_Imple_Chart_eng01_W.pdf'
-      name: MIDI implementation chart v1.00
   image: null
   description: null
   name: SH-01A

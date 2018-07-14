@@ -76,7 +76,7 @@ td ul {
   padding-left: 0;
 }
 
-td li {
+td p {
   list-style-type: none;
   white-space: nowrap;
 }
@@ -112,6 +112,11 @@ footer {
   color: grey;
   margin-bottom: 2rem;
   text-align: center;
+}
+
+footer a {
+  color: grey;
+  text-decoration: underline;
 }
 
 .table-container {

@@ -13,7 +13,7 @@
       <p>{{ homepage.tagline }}</p>
     </header>
     <main>
-      <p>{{ homepage.introduction }}</p>
+      {{{ homepage.introduction }}}
 
       <div class="table-container">
         <table class="synths-table">
@@ -37,11 +37,7 @@
                 <th class="synth">{{ synth.name }}</th>
 
                 <td>
-                  <ul>
-                    {{#each synth.manuals }}
-                      <li><a href="{{ url }}">{{ this.name }}</a></li>
-                    {{/each}}
-                  </ul>
+                  {{{ synth.manuals }}}
                 </td>
 
                 <td>
@@ -99,7 +95,7 @@
       </div>
     </main>
 
-    <footer>{{ homepage.footer }}</footer>
+    <footer>{{{ homepage.footer }}}</footer>
 
   </body>
 </html>
