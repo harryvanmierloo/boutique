@@ -15,6 +15,7 @@ Metalsmith(__dirname)
   .use(collections({
     synths: {
       pattern: 'synths/*.md',
+      sortBy: 'name'
     },
   }))
   .use(markdown())

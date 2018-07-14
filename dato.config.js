@@ -21,6 +21,7 @@ module.exports = (dato, root, i18n) => {
           `${synth.name}.md`, "yaml", {
             frontmatter: { 
               synth: synth.toMap(),
+              name: synth.name
             }
           }
         );
