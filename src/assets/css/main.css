@@ -1,0 +1,119 @@
+html {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+:after,
+:before,
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  margin: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+img {
+  max-width: 320px;
+  margin: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  background-color: transparent;
+  border-collapse: separate;
+  border-spacing: 0 0.25rem;
+  width: 100%;
+}
+
+thead,
+tbody {
+  text-align: left;
+}
+
+thead {
+  vertical-align: top;
+}
+
+tr {
+  background-color: white;
+  border-bottom: 1px solid #fafaff;
+}
+
+td,
+th {
+  padding: 1rem;
+}
+
+th span {
+  display: block;
+  font-weight: normal;
+  padding-top: 0.25rem;
+}
+
+td ul {
+  padding-left: 0;
+}
+
+td li {
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  margin-bottom: 1rem
+}
+
+header {
+  background-color: #FA2E00;
+  margin-bottom: 1rem;
+}
+
+header img {
+  padding: 2rem 1rem;
+}
+
+header p {
+  background-color: #9B1C00;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  color: grey;
+  text-align: center;
+}
+
+.table-container {
+  margin: 2rem 0;
+  overflow-x: auto;
+}

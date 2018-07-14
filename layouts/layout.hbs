@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{homepage.title}}</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/main.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="../assets/images/logo.png" title="{{homepage.title}}" />
+      <p>{{ homepage.tagline }}</p>
+    </header>
+    <main>
+      <p>{{ homepage.introduction }}</p>
+
+      <div class="table-container">
+        <table class="synths-table">
+          <thead class="synths-header">
+            <tr>
+              <th>Boutique</th>
+              <th>Manuals</th>
+              <th>Firmware</th>
+              <th>MacOS<span>10.9</span></th>
+              <th>MacOS<span>10.10</span></th>
+              <th>MacOS<span>10.11/12</span></th>
+              <th>MacOS<span>10.13</span></th>
+              <th>Win<span>7/8</span></th>
+              <th>Win<span>10</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each synths }}
+              <tr class="synth-row">
+              
+                <th class="synth">{{ synth.name }}</th>
+
+                <td>
+                  <ul>
+                    {{#each synth.manuals }}
+                      <li><a href="{{ url }}">{{ this.name }}</a></li>
+                    {{/each}}
+                  </ul>
+                </td>
+
+                <td>
+                  {{#if synth.firmware}}
+                    <a href="{{ synth.firmware.url }}">{{ synth.firmware.name }}</a>
+                  {{/if}}
+                  {{#unless synth.firmware}}-{{/unless}}
+                </td>
+
+                <td>
+                  {{#if synth.macos109}}
+                    <a href="{{ synth.macos109.url }}">{{ synth.macos109.name }}</a>
+                  {{/if}}
+                  {{#unless synth.macos109}}-{{/unless}}
+                </td>
+
+                <td>
+                  {{#if synth.macos1010}}
+                    <a href="{{ synth.macos1010.url }}">{{ synth.macos1010.name }}</a>
+                  {{/if}}
+                  {{#unless synth.macos1010}}-{{/unless}}
+                </td>
+
+                <td>
+                  {{#if synth.macos101112}}
+                    <a href="{{ synth.macos101112.url }}">{{ synth.macos101112.name }}</a>
+                  {{/if}}
+                  {{#unless synth.macos101112}}-{{/unless}}
+                </td>
+
+                <td>
+                  {{#if synth.macos1013}}
+                    <a href="{{ synth.macos1013.url }}">{{ synth.macos1013.name }}</a>
+                  {{/if}}
+                  {{#unless synth.macos1013}}-{{/unless}}
+                </td>
+
+                <td>
+                  {{#if synth.win78}}
+                    <a href="{{ synth.win78.url }}">{{ synth.win78.name }}</a>
+                  {{/if}}
+                  {{#unless synth.win78}}-{{/unless}}
+                </td>
+
+                <td>
+                  {{#if synth.win10}}
+                    <a href="{{ synth.win10.url }}">{{ synth.win10.name }}</a>
+                  {{/if}}
+                  {{#unless synth.win10}}-{{/unless}}
+                </td>
+              </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>{{ homepage.footer }}</footer>
+
+  </body>
+</html>
