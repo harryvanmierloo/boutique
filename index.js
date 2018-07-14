@@ -9,7 +9,7 @@ Metalsmith(__dirname)
   .metadata({
     title: "Roland Boutique",
   })
-  .source('./src/data/en/')
+  .source('./src')
   .destination('./build')
   .clean(true)
   .use(collections({

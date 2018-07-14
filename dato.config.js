@@ -1,9 +1,9 @@
 module.exports = (dato, root, i18n) => {
   i18n.availableLocales.forEach(locale => {
-    root.directory(`src/data/${locale}`, languageDir => {
+    root.directory(`src/homepage`, languageDir => {
       i18n.withLocale(locale, () => {
         languageDir.createPost(
-          `homePage.md`, "yaml", {
+          `../index.md`, "yaml", {
             frontmatter: { 
               homepage: dato.homePage.toMap()
             },
@@ -13,7 +13,7 @@ module.exports = (dato, root, i18n) => {
         //languageDir.createDataFile('synths.md', 'yaml', itemsToJson(dato.synths));
       })
     })
-    root.directory(`src/data/${locale}/synths`, synthDir => {
+    root.directory(`src/synths`, synthDir => {
       // ...iterate over the "synth" records...
       dato.synths.forEach((synth) => {
         // ...and create a markdown file for each synth!
