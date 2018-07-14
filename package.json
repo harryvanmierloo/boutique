@@ -1,0 +1,22 @@
+{
+  "name": "boutique",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "datocms-client": "^0.5.2",
+    "handlebars": "^4.0.11",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-feed": "^1.0.0",
+    "metalsmith-html-minifier": "^3.0.0",
+    "metalsmith-in-place": "^4.1.1",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-mapsite": "^1.0.4",
+    "metalsmith-markdown": "^0.2.2",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-publish": "^0.1.5",
+    "metalsmith-word-count": "0.0.4"
+  }
+}
